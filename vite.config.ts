@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: "/deep-page/",
   build: {
-    outDir: "docs",
+    outDir: "dist",
   },
 });
